@@ -42,7 +42,8 @@ img:hover {
     column-gap: 100px;
     background-color: aqua; 
     border-radius: 20%;
-    
+
+    vertical-align: baseline;
 }
 
   .home a:hover{
