@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar-brand h6{
+    color: rgb(255, 255, 255);
+}
+
+
+  .info-section {
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .info-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .info-box {
+    background-color: #c2f0db;
+    flex: 1;
+    min-width: 280px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .info-header {
+    background-color: #00aaff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .info-content p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .notice-content p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .notice-content img {
+    width: 30px;
+  }
+  
+  .person {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .info-container {
+      flex-direction: column;
+    }
+  }
+
+  text-center{
+    text-align: center;
+    
+  }
+  .container-fluid{
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  
+  }
+ .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2204a5;
+  }
+
+  .card-text{
+    font-size: 16px;
+    color: #0235a3;
+  }
+
+  .card{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .card-body{
+    padding: 10px;
+  }
